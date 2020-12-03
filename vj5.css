@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    
+}
+ #grad {
+    
+    height: 900px;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,209,165,1) 21%, rgba(79,50,3,1) 100%);
+ }
+
+.sahmat {
+    
+    position: absolute;
+    top: 70px;
+    left: 410px;
+    
+}
+
+.sahmat .slova {
+    width: 100px;
+    height: 100px;
+    border: 8px solid rgb(51, 31, 15);
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(236, 209, 165);
+    position: relative;
+    float: left;
+    line-height: 100px;
+    font-size: 40pt;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    color: rgb(51, 31, 15);
+    
+}
+
+#nista {
+    background-color: rgb(13, 36, 78);
+    border: none;
+    width: 40px;
+    
+}
+
+.okvir {
+    width: 500px;
+    height: 400px;
+    border: 15px solid rgba(68, 41, 20, 1);
+    position: absolute;
+    top: 290px;
+    left: 490px;
+    
+}
+
+.okvir .crno {
+    background-color: rgba(164, 116, 80, 1);
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+
+.okvir .bijelo {
+    background-color: rgba(236, 209, 165, 1);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+
+
+
+#lovac1 {
+    background-image: url(lovac.png);
+    background-size: 90%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#lovac2 {
+    background-image: url(lovac.png);
+    background-size: 90%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#bijelikralj {
+    background-image: url(bijeli-kralj.png);
+    background-size: 90%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#crnikralj {
+    background-image: url(crni-kralj.png);
+    background-size: 90%;
+    background-position:center;
+    background-repeat:no-repeat;
+}

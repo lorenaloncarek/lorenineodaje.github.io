@@ -1,0 +1,23 @@
+td, th {
+    border: 1px solid #273454;
+    padding: 15px 20px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #00aeef;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td {
+    background-color: rgba(254, 214, 82, 0.9);
+    font-weight: bold;
+    color: #273454;
+}
+
